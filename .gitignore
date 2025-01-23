@@ -1,0 +1,98 @@
+# Python-related files
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+*.pdb
+*.egg
+*.egg-info/
+dist/
+build/
+*.log
+
+# Environment and configuration files
+.env
+*.env
+*.ini
+*.cfg
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# IDE-specific files
+.vscode/
+.idea/
+*.iml
+
+# Streamlit-related
+.streamlit/
+*/.streamlit/
+config.toml
+secrets.toml
+
+# NVIDIA AI model checkpoints and outputs
+*.ckpt
+*.onnx
+*.trt
+*.pth
+*.pt
+
+# Data and embeddings
+data/
+*.jsonl
+*.csv
+*.tsv
+*.parquet
+*.npy
+*.npz
+*.pickle
+*.h5
+*.db
+
+# TensorBoard logs
+logs/
+events.out.*
+
+# Milvus database files
+milvus/
+*.binlog
+*.wal
+*.milvus
+
+# Node.js/JavaScript-related (if applicable for blockchain features)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+
+# IPFS-related
+ipfs/
+pinata_keys.json
+
+# OS-generated files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Temporary files
+*.tmp
+*.temp
+*.swp
+*.bak
+*.orig
+
+# Certificate and private key files
+*.pem
+*.crt
+*.key
+
+# Generated artifacts
+*.pdf
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.svg
+output/
